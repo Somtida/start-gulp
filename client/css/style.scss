@@ -1,0 +1,33 @@
+@import "reset";
+
+$font-stack:    "Comic Sans MS", cursive, sans-serif;
+$primary-color: #eee;
+$second-color: skyblue;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $second-color;
+}
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+
+section{
+  span{
+    color: $primary-color;
+  }
+}
